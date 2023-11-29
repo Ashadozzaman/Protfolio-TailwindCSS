@@ -1,5 +1,14 @@
 # Tailwind CSS
+#### Install process
+```
+npm install
+#install tailwindcss
+npm install tailwindcss
+#install live server
+npm install -g live-server
+npx live-server
 
+```
 #### VS Extention: `Tailwind CSS IntelliSense`, `Live Server`
 - Recommand css
 - Show css in-line
