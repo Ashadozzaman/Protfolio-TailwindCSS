@@ -76,3 +76,8 @@ Every utility class in Tailwind can be applied conditionally at different breakp
 ``````
 
 ## Handling Hover, Focus, and Other States
+
+## Dark Mode
+`tailwind.config.js` under this file manage default dark mode.
+- `darkmode:class` It's manage by system changes.
+- `darkmode:media` It's manage by according to device.
