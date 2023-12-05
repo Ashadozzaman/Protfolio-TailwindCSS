@@ -2,9 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        "sm" : "480px"
+      },
+      spacing:{
+        "big" : "48rem"
+      }
+    },
+    fontFamily:{
+      nunito:['Nunito', 'sans-serif']
+    }
   },
   plugins: [],
-  darkMode: 'class', // it's class or media
 }
 

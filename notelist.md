@@ -81,3 +81,21 @@ Every utility class in Tailwind can be applied conditionally at different breakp
 `tailwind.config.js` under this file manage default dark mode.
 - `darkmode:class` It's manage by system changes.
 - `darkmode:media` It's manage by according to device.
+
+## Layer Directive
+- Basically we use layer 3 away
+    - base : apply for class, when we create one class for multiple tailwind class.
+    - Components : `h1` `p`
+    - utilities: create utilities class.
+
+## Variant
+```
+@variants focus, hover {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+}
+```
